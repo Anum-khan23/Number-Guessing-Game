@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx",  // or "preserve" (depending on your setup)
+    "allowJs": true,     // Allow JavaScript files (if you use .jsx)
+    "moduleResolution": "node",
+    // other compiler options...
+  },
+  "include": [
+    "src/**/*"          // Ensure all TypeScript and JSX/TSX files are included
+  ],
+  "exclude": [
+    "node_modules"      // Exclude node_modules
+  ]
+}
